@@ -30,12 +30,12 @@ tracking.ColorTracker.registerColor('blue', function(r, g, b) {
 });
 
 var colors = new tracking.ColorTracker(['red','blue']);
-colors.setMinDimension(50);
-  var tol = 50;
+// colors.setMinDimension(50);
+// colors.setMinGroupSize(50);
+  var tol = 20;
 colors.on('track', function(event) {
   var car1 = event.data[0];
   var car2 = event.data[1];
-
   context.clearRect(0, 0, canvas.width, canvas.height);
   if (event.data.length === 0) {
     // No colors were detected in this frame.

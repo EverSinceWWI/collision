@@ -13,12 +13,17 @@
   <body>
 
     <div class="display">
-      <video id="webcam" width="640" height="480" autoplay></video>
-      <canvas id="canvas" width="640" height="480"></canvas>
+      <video id="webcam" width="800" height="600" autoplay></video>
+      <canvas id="canvas" width="800" height="600"></canvas>
     </div>
     <p id="car1"></p>
     <p id="collision" style="color:red;"></p>
     <p id="car2"></p>
+    <button onclick="reload()">clear</button>
+    <script>
+    function reload() {
+    location.reload();
+  }</script>
   </body>
 
 </html>

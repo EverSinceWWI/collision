@@ -44,6 +44,10 @@ canvas {
     margin-top: 0;
   }
 
+p {
+  margin:10px;
+}
+
   .ui #color {
     box-sizing: border-box;
     background-color: red;
