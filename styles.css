@@ -68,3 +68,25 @@ p {
 .controls div input {
   width: 75%;
 }
+
+.txt {
+  position:absolute;
+  bottom:12%;
+  font-size:21pt;
+  color:white;
+  text-align:center;
+}
+
+#car1{
+  left:12%;
+}
+#car2{
+  right:12%;
+}
+
+#collision{
+  background:none;
+  color:white;
+  padding: 5px 15px;
+  border-radius:3px;
+}

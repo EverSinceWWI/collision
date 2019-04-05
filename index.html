@@ -7,23 +7,18 @@
     <title>Collision Detection System</title>
     <link rel="stylesheet" href="styles.css">
     <script src="tracking-min.js"></script>
-    <script src="script2.js"></script>
+    <script src="script.js"></script>
   </head>
 
   <body>
 
     <div class="display">
-      <video id="webcam" width="800" height="600" autoplay></video>
-      <canvas id="canvas" width="800" height="600"></canvas>
+      <video id="webcam" width="800px" height="600px" autoplay></video>
+      <canvas id="canvas" width="800px" height="600px"></canvas>
     </div>
-    <p id="car1"></p>
-    <p id="collision" style="color:red;"></p>
-    <p id="car2"></p>
-    <button onclick="reload()">clear</button>
-    <script>
-    function reload() {
-    location.reload();
-  }</script>
+    <p class="txt" id="car1"></p>
+    <p class="txt" id="collision"></p>
+    <p class="txt" id="car2"></p>
   </body>
 
 </html>
