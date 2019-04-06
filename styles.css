@@ -78,10 +78,14 @@ p {
 }
 
 #car1{
-  left:12%;
+  font-size:14pt;
+  left:10%;
+  bottom:15%;
 }
 #car2{
-  right:12%;
+  font-size:14pt;
+  right:10%;
+  bottom:15%;
 }
 
 #collision{
